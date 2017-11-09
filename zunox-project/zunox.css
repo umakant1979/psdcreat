@@ -687,14 +687,32 @@ transition: all 400ms ease-in-out;
 }
 .icons{
 	text-align: center;
-	padding: 0 10px;
+	list-style:none;
 	font-size: 29px;
 	margin:0;
+	width:100%;
+	margin-left: 531px;
+	float: left;
+}
+.icons i{
+	padding: 0 10px;
 }
 .rights{
 	text-align: center;
 	font-size: 18px;
 	color:#cccccc;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	padding: 35px 0;
+	clear:both;
+}
+
+.icons>li:nth-child(2){
+	color:#76a9ea;
+}
+.icons>li:nth-child(1){
+	color:#f34a38;
+
+}
+.icons >li{
+	display: block;
+	float: left;
 }
